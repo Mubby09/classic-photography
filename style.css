@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.5rem;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.navbar-brand {
+    object-fit: cover;
+    height: 10vh;
+}
+
+.carousel-item img {
+    height: 60vh;
+    object-fit: cover;
+}
+
+@media(max-width:500px) {
+    .carousel-item {
+        height: 50vh;
+        object-fit: cover;
+    }
+}
+
+@media(max-width:768px) {
+
+    .carousel-item {
+        height: 50vh;
+        object-fit: cover;
+    }
+}
+
+.offer {
+    background-color: aquamarine;
+    height: 50vh;
+}
+
+@media(max-width:500px) {
+    .offer {
+        background-color: aquamarine;
+        height: 75vh;
+    }
+}
+
+.services {
+    text-decoration: underline;
+}
+
+.services-items {
+    margin: 30px 50px;
+}
+
+ul li {
+    list-style: none;
+    font-size: large;
+    font-weight: 300;
+    margin: 1rem;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+
+ul li:nth-child(5) {
+    border-bottom: none;
+}
+
+img {
+    -object-fit: cover;
+}
+
+p {
+    font-size: 1.4rem;
+}
